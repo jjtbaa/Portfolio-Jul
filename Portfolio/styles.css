@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Handwrite;
+    src: url(../Portfolio/Handwrite.ttf);
+}
+
+.bilbo-swash-caps-regular {
+    font-family: "Bilbo Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 3300px;
+}
+
+/*
+.background {
+
+    width: 100%;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-attachment: scroll;
+} */
+
+header {
+    display: flex;
+    margin-top: 56.5% ;
+}
+
+.detail {
+    font-family: Handwrite;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 5%;
+    margin-left: 8%;
+    padding: 20px; /* Add some padding for aesthetics */
+    box-sizing: border-box; /* Ensure padding is included in the width/height calculations */
+    
+}
+
+
+
+.detail h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.detail p {
+    color: dimgrey;
+    line-height: 1.6;
+}
+
+.aboutme {
+    width: 80%;
+    position: relative;
+    text-align: center;
+
+}
+
+.aboutme h2 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.aboutme p {
+    color: dimgrey;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 45px 70px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.3s ease;
+}
+
+nav a {
+    font-size: 25px;
+    color: #212121;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 40px;
+    transition: 0.4s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: rgb(168, 153, 103);
+    border-bottom: 3px solid rgb(168, 153, 103);
+    text-shadow: 0 0 40px rgb(168, 153, 103);
+
+}
+
+
+
+
+.images {
+    width: 30%;
+    height: 400px;
+    max-width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-65%);
+    transition: bottom 1s, left 1s, right 1s;
+    
+}
+
+.images:hover .shape {
+    bottom: 70px;
+}
+
+.images:hover .juliet {
+    left: 120%;
+    
+}
+
+.images:hover .juliet2 {
+    right: 30%;
+}
+
+.images .juliet{
+    left: 0;
+    border-radius: 40px;
+    transition: left 1s;
+    box-shadow: inset 0 0 15px black, 0 0 15px black;
+}
+
+.images .juliet2 {
+    right: 0;
+    border-radius: 40px;
+    width: 100%;
+    height: 70%;
+    box-shadow: inset 0 0 15px grey, 0 0 15px grey;
+    transition: right 1s;
+}
+
+
+
+footer {
+    margin-top: 220%;
+}
+
+
+.socials a {
+    font-size: 35px;
+    color: black;
+    border: 2px solid black;
+    width: 45px;
+    height: 42px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 13px #6a7f82, 0 0 13px #6a7f82;
+    transition: 0.4s ease;
+}
+
+.socials a:hover {
+    transform: scale(1.2) translateY(-10px);
+    color: white;
+    border: 2px solid white;
+}
+
+.socials {
+    padding-bottom: 0.5%;
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center; /* Centers the items vertically, if needed */
+    justify-content: space-between 15px;
+    flex-wrap: wrap; /* Allows items to wrap if there's not enough space */
+}
+
+ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+ul li a {
+    color: white;
+    transition: 0.4s ease;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid ;
+    color: black;
+    text-shadow: 0 0 40px black;
+
+}
+
+.copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
