@@ -4,42 +4,32 @@
 }
 
 
-.bg1{
-    height: 653px;
-    width: 1280px;
-    background-image: url(bg1.png);
+
+.bg1, .bg2, .bg3, .bg4, .bg5 {
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
-    background-size: 100% 100% ;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.bg1{
+    background-image: url(bg1.png);
 }
 
 .bg2{
-    height: 653px;
-    width: 1280px;
     background-image: url(bg2.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
 }
 
 .bg3{
-    height: 653px;
-    width: 1280px;
     background-image: url(bg3.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
 }
 
 .bg4{
-    height: 653px;
-    width: 1280px;
     background-image: url(bg4.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
 }
 
 .bg5{
-    height: 653px;
-    width: 1280px;
     background-image: url(bg5.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
 }
